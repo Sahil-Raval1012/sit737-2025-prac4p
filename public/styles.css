@@ -1,4 +1,3 @@
-/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +39,6 @@ label {
     font-weight: 600;
     color: #2c3e50;
 }
-
 input {
     width: 100%;
     padding: 10px;
@@ -48,17 +46,15 @@ input {
     border-radius: 4px;
     font-size: 16px;
 }
-
 .operations {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-bottom: 20px;
 }
-
 button {
     padding: 12px;
-    background-color: #3498db;
+    background-color: PURPLE;
     color: white;
     border: none;
     border-radius: 4px;
@@ -66,11 +62,9 @@ button {
     font-size: 16px;
     transition: background-color 0.3s;
 }
-
 button:hover {
     background-color: #2980b9;
 }
-
 .result-container {
     text-align: center;
     margin-bottom: 15px;
