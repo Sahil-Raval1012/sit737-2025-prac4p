@@ -1,0 +1,105 @@
+{"level":"info","message":"Calculator microservice running on port 3000","service":"calculator-microservice"}
+{"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","connection":"keep-alive","host":"localhost:3000","sec-ch-ua":"\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","sec-fetch-user":"?1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"},"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"calculator-microservice","url":"/"}
+{"level":"warn","message":"Route not found","method":"GET","service":"calculator-microservice","url":"/"}
+{"headers":{"accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","connection":"keep-alive","host":"localhost:3000","referer":"http://localhost:3000/","sec-ch-ua":"\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"image","sec-fetch-mode":"no-cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"},"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"calculator-microservice","url":"/favicon.ico"}
+{"level":"warn","message":"Route not found","method":"GET","service":"calculator-microservice","url":"/favicon.ico"}
+{"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"en-AU,en;q=0.9","connection":"keep-alive","host":"localhost:3000","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15"},"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"calculator-microservice","url":"/"}
+{"level":"warn","message":"Route not found","method":"GET","service":"calculator-microservice","url":"/"}
+{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate","accept-language":"en-AU,en;q=0.9","connection":"keep-alive","host":"localhost:3000","referer":"http://localhost:3000/","sec-fetch-dest":"image","sec-fetch-mode":"no-cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15"},"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"calculator-microservice","url":"/favicon.ico"}
+{"level":"warn","message":"Route not found","method":"GET","service":"calculator-microservice","url":"/favicon.ico"}
+{"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"en-AU,en;q=0.9","connection":"keep-alive","host":"localhost:3000","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"none","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15"},"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"calculator-microservice","url":"/add?num1=5&num2=3"}
+{"level":"info","message":"New addition operation requested: 5 + 3 = 8","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on port 3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on port 3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on port 3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on port 3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on port 3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on port 3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","connection":"keep-alive","host":"localhost:3000","referer":"http://localhost:3000/","sec-ch-ua":"\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"},"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"calculator-microservice","url":"/add?num1=1&num2=2"}
+{"level":"info","message":"Addition operation successful: 1 + 2 = 3","operation":"addition","params":{"num1":1,"num2":2},"result":3,"service":"calculator-microservice"}
+{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","connection":"keep-alive","host":"localhost:3000","referer":"http://localhost:3000/","sec-ch-ua":"\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"},"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"calculator-microservice","url":"/multiply?num1=1&num2=2"}
+{"level":"info","message":"Multiplication operation successful: 1 * 2 = 2","operation":"multiplication","params":{"num1":1,"num2":2},"result":2,"service":"calculator-microservice"}
+{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","connection":"keep-alive","host":"localhost:3000","referer":"http://localhost:3000/","sec-ch-ua":"\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"},"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"calculator-microservice","url":"/divide?num1=1&num2=2"}
+{"level":"info","message":"Division operation successful: 1 / 2 = 0.5","operation":"division","params":{"num1":1,"num2":2},"result":0.5,"service":"calculator-microservice"}
+{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","connection":"keep-alive","host":"localhost:3000","referer":"http://localhost:3000/","sec-ch-ua":"\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"},"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"calculator-microservice","url":"/subtract?num1=1&num2=2"}
+{"level":"info","message":"Subtraction operation successful: 1 - 2 = -1","operation":"subtraction","params":{"num1":1,"num2":2},"result":-1,"service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","connection":"keep-alive","host":"localhost:3000","referer":"http://localhost:3000/","sec-ch-ua":"\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"},"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"calculator-microservice","url":"/add?num1=2&num2=3"}
+{"level":"info","message":"Addition operation successful: 2 + 3 = 5","operation":"addition","params":{"num1":2,"num2":3},"result":5,"service":"calculator-microservice"}
+{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","connection":"keep-alive","host":"localhost:3000","referer":"http://localhost:3000/","sec-ch-ua":"\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"},"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"calculator-microservice","url":"/add?num1=1&num2=3"}
+{"level":"info","message":"Addition operation successful: 1 + 3 = 4","operation":"addition","params":{"num1":1,"num2":3},"result":4,"service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br, zstd","accept-language":"en-US,en;q=0.9","connection":"keep-alive","host":"localhost:3000","referer":"http://localhost:3000/","sec-ch-ua":"\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"macOS\"","sec-fetch-dest":"empty","sec-fetch-mode":"cors","sec-fetch-site":"same-origin","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"},"ip":"::1","level":"info","message":"Incoming request","method":"GET","service":"calculator-microservice","url":"/add?num1=3&num2=4"}
+{"level":"info","message":"Addition operation successful: 3 + 4 = 7","operation":"addition","params":{"num1":3,"num2":4},"result":7,"service":"calculator-microservice"}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Microservice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator Microservice</h1>
+        <div class="calculator">
+            <div class="input-group">
+                <label for="num1">First Number:</label>
+                <input type="number" id="num1" placeholder="Enter first number">
+            </div>
+            <div class="input-group">
+                <label for="num2">Second Number:</label>
+                <input type="number" id="num2" placeholder="Enter second number">
+            </div>
+            <div class="operations">
+                <button onclick="performOperation('add')">Add</button>
+                <button onclick="performOperation('subtract')">Subtract</button>
+                <button onclick="performOperation('multiply')">Multiply</button>
+                <button onclick="performOperation('divide')">Divide</button>
+            </div>
+            <div class="result-container">
+                <h3>Result:</h3>
+                <div id="result" class="result">--</div>
+            </div>
+            <div id="error" class="error"></div>
+        </div>
+    </div>
+    <script>
+        function performOperation(operation) {
+            const num1 = document.getElementById('num1').value;
+            const num2 = document.getElementById('num2').value;
+            const resultElement = document.getElementById('result');
+            const errorElement = document.getElementById('error');
+            resultElement.textContent = '--';
+            errorElement.textContent = '';
+            if (!num1 || !num2) {
+                errorElement.textContent = 'Both numbers are required';
+                return;
+            }
+            fetch(`/${operation}?num1=${num1}&num2=${num2}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        errorElement.textContent = data.error;
+                    } else {
+                        resultElement.textContent = data.result;
+                    }
+                })
+                .catch(error => {
+                    errorElement.textContent = 'An error occurred while processing your request';
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+</body>
+</html>
